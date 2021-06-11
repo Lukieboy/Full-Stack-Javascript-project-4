@@ -13,6 +13,7 @@ startGameBtn.addEventListener('click', ()=>{
 
     for (let index = 0; index < keys.length; index++) {
         keys[index].classList= "key";
+        keys[index].disabled = false;
     }
 
     for (let index = 0; index < tries.length; index++) {
